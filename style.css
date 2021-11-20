@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  font-family: "Outfit", family;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+.img-equi {
+  border-radius: 9px;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.desc {
+  color: hsl(215, 51%, 70%, 0.4);
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.detail__container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.detail--container__sub {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time__left {
+  color: hsl(215, 51%, 70%);
+}
+
+.line {
+  width: 100%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator-container {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.creator--img {
+  width: 12%;
+}
+.creator {
+  color: hsl(215, 51%, 70%, 0.4);
+  font-weight: 300;
+}
+
+.creator__name {
+  color: #fff;
+}
+/* Attribution */
+.attribution {
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
